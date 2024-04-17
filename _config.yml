@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: Woobin's Blog # the main title
 
-tagline: # it will display as the sub-title
+tagline: 매일 성장하고 있는 개발자 일기 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  성장하고 있는 개발자 일기
+  매일 성장하고 있는 개발자 일기
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
