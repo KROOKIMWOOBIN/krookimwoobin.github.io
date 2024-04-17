@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 우빈이 개발일지 # the main title
 
-tagline: 미래를 위해 항상 노력하는 개발자입니다. # it will display as the sub-title
+tagline:  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
