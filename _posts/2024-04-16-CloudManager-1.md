@@ -21,7 +21,7 @@ pin: false
 
 ##### 3-Tier 아키텍쳐의 세가지 구성요소를 쓰고 설명하세요
 |Presentation Tier|Logic Tier|Data Tier|
-|--|--|--|
+
 - 장점
   - 유지보수 용이성
   - 확장성
