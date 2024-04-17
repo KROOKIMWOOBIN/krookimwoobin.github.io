@@ -3,7 +3,7 @@ title: "클라우드 중간고사"
 excerpt: ""
 
 categories: [클라우드]
-tags: [cloud, Linux, 2024DONGYANG]
+tags: [cloud, Linux, 2024DongyangMiraeUniversity]
 
 toc: true
 toc_sticky: true

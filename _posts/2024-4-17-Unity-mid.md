@@ -3,7 +3,7 @@ title: "가상현실실습 중간고사"
 excerpt: ""
 
 categories: [Unity]
-tags: [C#, Unity, 2024DONGYANG]
+tags: [C#, Unity, 2024DongyangMiraeUniversity]
 
 toc: true
 toc_sticky: true
