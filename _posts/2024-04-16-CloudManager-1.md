@@ -59,7 +59,8 @@ pin: false
 |--|
 |![클라우드 문제2](../assets/img/kakao/클라우드-중간고사-2.jpg){: width="400" height="400"}
 |--|
-|![클라우드 문제3](../assets/img/kakao/클라우드-중간고사-3.jpg){: width="400" height="400"}
-|--|
-|![클라우드 문제4](../assets/img/kakao/클라우드-중간고사-4.jpg){: width="400" height="400"}
-|--|
+
+|경로|동작여부|apache|tomcat|
+|--|--|--|--|
+|http://localhost/app1/app1.html|X|X|X|
+||O|O|O|
