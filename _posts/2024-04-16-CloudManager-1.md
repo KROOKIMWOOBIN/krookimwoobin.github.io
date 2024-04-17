@@ -13,10 +13,12 @@ last_modified_at: 2024-04-17 09:50:00 +0800
 
 pin: false
 ---
+
 ##### Apache 및 Tomcat을 잘 실행시키는 방법 3가지
 1. Systemctl status
 2. netstat -ntlp
 3. 클라이언트 프로그램을 직접 연결
+
 ##### 3-Tier 아키텍쳐의 세가지 구성요소를 쓰고 설명하세요
 - 장점
 
@@ -38,12 +40,15 @@ pin: false
       - SSL 처리
   3. Load balancing
       - 하나의 Webserver가 여러 개의 WAS 서버에게 업무 분배
+
 ##### 해당하는 포트가 잘 listen 하고 있는가?
-netstat -nplt
+- netstat -nplt
+
 ##### load balancer의 역할
 - 네트워크 트래픽을 하나 이상의 서버나 장비로 분산하기 위해 사용되는 기술
 - S/W나 H/W를 통해 로드 밸런싱을 수행할 수 있음
 - 서비스 사용자의 요청을 서버로 분산해서 전달
+
 ##### Load Balancing 방식
 - Round Robin의 방식에 대해 설명
     - 로드 밸런서에서 서버 선택 시, 순차적으로 서버를 선택하는 방법
