@@ -60,7 +60,33 @@ pin: false
 |![클라우드 문제2](../assets/img/kakao/클라우드-중간고사-2.jpg){: width="400" height="400"}
 |--|
 
-|경로|동작여부|apache|tomcat|
-|--|--|--|--|
-|http://localhost/app1/app1.html|X|X|X|
-||O|O|O|
+###### Apache - was1 VM에서 웹브라우저를 엵 아래의 요청 url을 수행할 때
+|순번|경로|동작여부|apache|tomcat|
+|--|--|--|--|--|
+|1|http://localhost/app1/index.html|X|X|X|
+|2|http://localhost/app1/app1.html|O|X|O|
+|3|http://localhost/app2/|O|X|O|
+|4|http://localhost/app2/app2.html|O|X|O|
+|5|http://localhost/app2/app3.html|X|X|X|
+|6|http://localhost:8080/app2/index.html|X|X|X|
+|7|http://localhost:8090/app2/index.html|X|X|X|
+|8|http://localhost/app10/app10.html|O|O|X|
+|9|http://localhost/app10/index.html|O|O|X|
+|10|http://localhost/directory1/dir.html|O|O|X|
+|11|http://localhost/directory1/|X|X|X|
+|12|http://localhost/app5/app5.html|O|X|O|
+|13|http://localhost/app5/app500.html|X|X|X|
+
+###### was2 VM 에서 웹 브라우저를 여로, 아래의 요청 url을 수행할 때
+|순번|경로|동작여부|
+|--|--|--|
+|1|http://localhost/app1/app1.html|X|
+|2|http://192.168.100.001/app1/app1.html|O|
+|3|http://192.168.100.001:80/app1/app1.html|O|
+|4|http://192.168.100.001:8080/app1/app1.html|O|
+|5|http://192.168.100.001:8019/app1/app1.html|X|
+|6|http://localhost/app10/app10.html|X|
+|7|http://localhost:8090/app10/app10.html|O|
+|8|http://localhost:8019/app10/app10.html|X|
+|9|http://192.168.100.001:80/app2/|O|
+
