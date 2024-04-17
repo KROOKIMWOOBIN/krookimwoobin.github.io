@@ -69,12 +69,13 @@ pin: false
 - Weighted Round Robin의 방식에 대해 설명
     - 로드 밸런서에서 서버 선택 시, 비중에 따라서 서버를 선택하는 방법
 
-|![클라우드 문제1](../assets/img/kakao/클라우드-중간고사-1.jpg){: width="400" height="400"}
+|![클라우드 문제1](../assets/img/kakao/클라우드-중간고사-1.jpg){: width="500" height="400"}
 |--|
-|![클라우드 문제2](../assets/img/kakao/클라우드-중간고사-2.jpg){: width="400" height="400"}
+|![클라우드 문제2](../assets/img/kakao/클라우드-중간고사-2.jpg){: width="500" height="400"}
 |--|
 
-###### Apache - was1 VM에서 웹브라우저를 엵 아래의 요청 url을 수행할 때
+###### Apache - was1 VM에서 웹브라우저를 열고 아래의 요청 url을 수행할 때
+
 |순번|경로|동작여부|apache|tomcat|
 |--|--|--|--|--|
 |1|http://localhost/app1/index.html|X|X|X|
@@ -91,7 +92,8 @@ pin: false
 |12|http://localhost/app5/app5.html|O|X|O|
 |13|http://localhost/app5/app500.html|X|X|X|
 
-###### was2 VM 에서 웹 브라우저를 여로, 아래의 요청 url을 수행할 때
+###### was2 VM 에서 웹 브라우저를 열고, 아래의 요청 url을 수행할 때
+
 |순번|경로|동작여부|
 |--|--|--|
 |1|http://localhost/app1/app1.html|X|
