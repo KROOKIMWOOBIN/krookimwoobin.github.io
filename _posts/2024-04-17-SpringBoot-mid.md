@@ -78,5 +78,5 @@ pin: false
 |@RequestParam|이름 있는 값이 들어올 때 사용|
 
 ##### Lombok 추가
-compileOnly 'org.projectlombok:lombok'
-annotationProcessor 'org.projectlombok:lombok'
+- compileOnly 'org.projectlombok:lombok'
+- annotationProcessor 'org.projectlombok:lombok'
