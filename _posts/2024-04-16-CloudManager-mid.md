@@ -24,12 +24,6 @@ pin: false
 |Presentation Tier|Logic Tier|Data Tier|
 |--|--|--|
 |Web|WAS|DB|
-
-- 장점
-  - 유지보수 용이성
-  - 확장성
-  - 보안성
-  - 재사용성
     
 - 이렇게 해서 안정적으로 운영되는가?
   - 3-Tier 아키텍처는 각 계층의 독립성과 명확한 역할 분담으로 인해 안정적인 운영이 가능합니다.
