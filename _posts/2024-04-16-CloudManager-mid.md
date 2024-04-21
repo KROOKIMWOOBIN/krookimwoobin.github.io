@@ -20,9 +20,19 @@ pin: false
 3. 클라이언트 프로그램을 직접 연결
 
 ##### 3-Tier 아키텍쳐의 세가지 구성요소를 쓰고 설명하세요
+<<<<<<< HEAD
 |Presentation Tier|Logic Tier|Data Tier|
 |--|--|--|
 |Web|WAS|DB|
+=======
+|Presentation Tier|Service Logic Tier|Data Tier|
+
+- 장점
+  - 유지보수 용이성
+  - 확장성
+  - 보안성
+  - 재사용성
+>>>>>>> fb35f478ccd44d551d28a5e6f219e636b8fb9f0f
     
 - 이렇게 해서 안정적으로 운영되는가?
   - 3-Tier 아키텍처는 각 계층의 독립성과 명확한 역할 분담으로 인해 안정적인 운영이 가능합니다.

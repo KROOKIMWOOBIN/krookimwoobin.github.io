@@ -75,4 +75,10 @@ pin: false
 |Annotation|동작|
 |--|--|
 |@PathValiable|이름 없이 값만 들어올 때 사용|
-|@RequestMaram|이름 있는 값이 들어올 때 사용|
+|@RequestParam|이름 있는 값이 들어올 때 사용|
+
+##### Lombok 추가
+- compileOnly 'org.projectlombok:lombok'
+- annotationProcessor 'org.projectlombok:lombok'
+
+##### mustache 문법
