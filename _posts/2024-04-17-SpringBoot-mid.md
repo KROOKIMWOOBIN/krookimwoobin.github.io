@@ -82,6 +82,6 @@ pin: false
 - annotationProcessor 'org.projectlombok:lombok'
 
 ##### mustache 문법
-- {{변수명}}
-- {{#변수명}} {{/변수명}}
-- {{>파일명}}
+- `{{변수명}}`
+- `{{#변수명}} {{/변수명}}`
+- `{{>파일명}}`
