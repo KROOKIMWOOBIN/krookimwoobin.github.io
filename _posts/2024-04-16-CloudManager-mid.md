@@ -1,5 +1,5 @@
 ---
-title: "클라우드 중간고사"
+title: "클라우드 중간고사(끝)"
 excerpt: ""
 
 categories: [Cloud]
