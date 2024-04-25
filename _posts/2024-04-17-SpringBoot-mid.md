@@ -1,6 +1,6 @@
 ---
-title: "스프링 부트 중간고사"
-excerpt: ""
+title: "스프링부트 중간고사"
+excerpt: "동양미래대학교 스프링부트 중간고사 시험 내용"
 
 categories: [SpringBoot]
 tags: [SpringBoot, Java, 2024DongyangMiraeUniversity]
@@ -72,10 +72,10 @@ pin: false
 
 ###### 어노테이션
 
-|Annotation|동작|
-|--|--|
-|@PathValiable|이름 없이 값만 들어올 때 사용|
-|@RequestParam|이름 있는 값이 들어올 때 사용|
+| Annotation    | 동작                          |
+| ------------- | ----------------------------- |
+| @PathValiable | 이름 없이 값만 들어올 때 사용 |
+| @RequestParam | 이름 있는 값이 들어올 때 사용 |
 
 ##### Lombok 추가
 - compileOnly 'org.projectlombok:lombok'

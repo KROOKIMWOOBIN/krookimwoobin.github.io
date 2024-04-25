@@ -1,6 +1,6 @@
 ---
 title: "클라우드 중간고사"
-excerpt: ""
+excerpt: "동양미래대학교 클라우드 중간고사 시험 내용"
 
 categories: [Cloud]
 tags: [Cloud, Linux, 2024DongyangMiraeUniversity]
@@ -21,9 +21,9 @@ pin: false
 
 ##### 3-Tier 아키텍쳐의 세가지 구성요소를 쓰고 설명하세요
 
-|Presentation Tier|Logic Tier|Data Tier|
-|--|--|--|
-|Web|WAS|DB|
+| Presentation Tier | Logic Tier | Data Tier |
+| ----------------- | ---------- | --------- |
+| Web               | WAS        | DB        |
     
 - 이렇게 해서 안정적으로 운영되는가?
   - 3-Tier 아키텍처는 각 계층의 독립성과 명확한 역할 분담으로 인해 안정적인 운영이 가능합니다.
@@ -70,40 +70,40 @@ pin: false
 - Weighted Round Robin의 방식에 대해 설명
     - 로드 밸런서에서 서버 선택 시, 비중에 따라서 서버를 선택하는 방법
 
-|![클라우드 문제1](../assets/img/kakao/클라우드-중간고사-1.jpg){: width="500" height="400"}
-|--|
-|![클라우드 문제2](../assets/img/kakao/클라우드-중간고사-2.jpg){: width="500" height="400"}
-|--|
+| ![클라우드 문제1](../assets/img/kakao/클라우드-중간고사-1.jpg){: width="500" height="400"} |
+| ------------------------------------------------------------------------------------------ |
+| ![클라우드 문제2](../assets/img/kakao/클라우드-중간고사-2.jpg){: width="500" height="400"} |
+| --                                                                                         |
 
 ###### Apache - was1 VM에서 웹브라우저를 열고 아래의 요청 url을 수행할 때
 
-|순번|경로|동작여부|apache|tomcat|
-|--|--|--|--|--|
-|1|http://localhost/app1/index.html|X|X|X|
-|2|http://localhost/app1/app1.html|O|X|O|
-|3|http://localhost/app2/|O|X|O|
-|4|http://localhost/app2/app2.html|O|X|O|
-|5|http://localhost/app2/app3.html|X|X|X|
-|6|http://localhost:8080/app2/index.html|X|X|X|
-|7|http://localhost:8090/app2/index.html|X|X|X|
-|8|http://localhost/app10/app10.html|O|O|X|
-|9|http://localhost/app10/index.html|O|O|X|
-|10|http://localhost/directory1/dir.html|O|O|X|
-|11|http://localhost/directory1/|X|X|X|
-|12|http://localhost/app5/app5.html|O|X|O|
-|13|http://localhost/app5/app500.html|X|X|X|
+| 순번 | 경로                                  | 동작여부 | apache | tomcat |
+| ---- | ------------------------------------- | -------- | ------ | ------ |
+| 1    | http://localhost/app1/index.html      | X        | X      | X      |
+| 2    | http://localhost/app1/app1.html       | O        | X      | O      |
+| 3    | http://localhost/app2/                | O        | X      | O      |
+| 4    | http://localhost/app2/app2.html       | O        | X      | O      |
+| 5    | http://localhost/app2/app3.html       | X        | X      | X      |
+| 6    | http://localhost:8080/app2/index.html | X        | X      | X      |
+| 7    | http://localhost:8090/app2/index.html | X        | X      | X      |
+| 8    | http://localhost/app10/app10.html     | O        | O      | X      |
+| 9    | http://localhost/app10/index.html     | O        | O      | X      |
+| 10   | http://localhost/directory1/dir.html  | O        | O      | X      |
+| 11   | http://localhost/directory1/          | X        | X      | X      |
+| 12   | http://localhost/app5/app5.html       | O        | X      | O      |
+| 13   | http://localhost/app5/app500.html     | X        | X      | X      |
 
 ###### was2 VM 에서 웹 브라우저를 열고, 아래의 요청 url을 수행할 때
 
-|순번|경로|동작여부|
-|--|--|--|
-|1|http://localhost/app1/app1.html|X|
-|2|http://192.168.100.001/app1/app1.html|O|
-|3|http://192.168.100.001:80/app1/app1.html|O|
-|4|http://192.168.100.001:8080/app1/app1.html|O|
-|5|http://192.168.100.001:8019/app1/app1.html|X|
-|6|http://localhost/app10/app10.html|X|
-|7|http://localhost:8090/app10/app10.html|O|
-|8|http://localhost:8019/app10/app10.html|X|
-|9|http://192.168.100.001:80/app2/|O|
+| 순번 | 경로                                       | 동작여부 |
+| ---- | ------------------------------------------ | -------- |
+| 1    | http://localhost/app1/app1.html            | X        |
+| 2    | http://192.168.100.001/app1/app1.html      | O        |
+| 3    | http://192.168.100.001:80/app1/app1.html   | O        |
+| 4    | http://192.168.100.001:8080/app1/app1.html | O        |
+| 5    | http://192.168.100.001:8019/app1/app1.html | X        |
+| 6    | http://localhost/app10/app10.html          | X        |
+| 7    | http://localhost:8090/app10/app10.html     | O        |
+| 8    | http://localhost:8019/app10/app10.html     | X        |
+| 9    | http://192.168.100.001:80/app2/            | O        |
 
