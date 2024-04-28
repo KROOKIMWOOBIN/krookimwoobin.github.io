@@ -14,6 +14,8 @@ last_modified_at: 2024-04-21 21:05:00 +0800
 pin: false
 ---
 
+# 테스트
+
 ##### Apache 및 Tomcat을 잘 실행시키는 방법 3가지
 1. Systemctl status
 2. netstat -ntlp
