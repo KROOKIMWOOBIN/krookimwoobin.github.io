@@ -14,14 +14,12 @@ last_modified_at: 2024-04-21 21:05:00 +0800
 pin: false
 ---
 
-# 테스트
-
-##### Apache 및 Tomcat을 잘 실행시키는 방법 3가지
+## Apache 및 Tomcat을 잘 실행시키는 방법 3가지
 1. Systemctl status
 2. netstat -ntlp
 3. 클라이언트 프로그램을 직접 연결
 
-##### 3-Tier 아키텍쳐의 세가지 구성요소를 쓰고 설명하세요
+## 3-Tier 아키텍쳐의 세가지 구성요소를 쓰고 설명하세요
 
 | Presentation Tier | Logic Tier | Data Tier |
 | ----------------- | ---------- | --------- |
@@ -43,7 +41,7 @@ pin: false
   - 배포 및 업데이트 어려움
   - 개발 시간 증가
 
-##### 웹 서버의 장점과 역할 작성
+## 웹 서버의 장점과 역할 작성
 - 장점
     1. Static resource 처리를 빨리 해준다.
     2. WAS 서버의 주소 노출이 안되어 보안이 강화된다.
@@ -58,15 +56,15 @@ pin: false
   3. Load balancing
       - 하나의 Webserver가 여러 개의 WAS 서버에게 업무 분배
 
-##### 해당하는 포트가 잘 listen 하고 있는가?
+## 해당하는 포트가 잘 listen 하고 있는가?
 - netstat -nplt
 
-##### load balancer의 역할
+## load balancer의 역할
 - 네트워크 트래픽을 하나 이상의 서버나 장비로 분산하기 위해 사용되는 기술
 - S/W나 H/W를 통해 로드 밸런싱을 수행할 수 있음
 - 서비스 사용자의 요청을 서버로 분산해서 전달
 
-##### Load Balancing 방식
+## Load Balancing 방식
 - Round Robin의 방식에 대해 설명
     - 로드 밸런서에서 서버 선택 시, 순차적으로 서버를 선택하는 방법
 - Weighted Round Robin의 방식에 대해 설명
@@ -77,7 +75,7 @@ pin: false
 | ![클라우드 문제2](../assets/img/kakao/클라우드-중간고사-2.jpg){: width="500" height="400"} |
 | --                                                                                         |
 
-###### Apache - was1 VM에서 웹브라우저를 열고 아래의 요청 url을 수행할 때
+## Apache - was1 VM에서 웹브라우저를 열고 아래의 요청 url을 수행할 때
 
 | 순번 | 경로                                  | 동작여부 | apache | tomcat |
 | ---- | ------------------------------------- | -------- | ------ | ------ |
@@ -95,7 +93,7 @@ pin: false
 | 12   | http://localhost/app5/app5.html       | O        | X      | O      |
 | 13   | http://localhost/app5/app500.html     | X        | X      | X      |
 
-###### was2 VM 에서 웹 브라우저를 열고, 아래의 요청 url을 수행할 때
+## was2 VM 에서 웹 브라우저를 열고, 아래의 요청 url을 수행할 때
 
 | 순번 | 경로                                       | 동작여부 |
 | ---- | ------------------------------------------ | -------- |
