@@ -20,7 +20,7 @@ pin: false
 먼저 나가는 자료구조입니다.
 
 ## PriorityQueue 선언 방법
-```Java
+```java
 // 우선순위가 낮은 숫자가 먼저 나옴(작은 숫자)
 PriorityQueue<T> pQ = new PriorityQueue<>();
 // 우선순위가 높은 숫자가 먼저 나옴(큰 숫자)
