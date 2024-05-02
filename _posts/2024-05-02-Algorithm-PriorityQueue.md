@@ -3,7 +3,7 @@ title: "PriorityQueue"
 excerpt: "완전 이진 트리"
 
 categories: [Algorithm]
-tags: [Algorithm, PriorityQueue, Java]
+tags: [Algorithm, Java]
 
 toc: true
 toc_sticky: true
