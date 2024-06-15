@@ -224,7 +224,7 @@ pin: false
 ### Least Connection
 > - 로드 밸런서에서 서버 선택 시, 연결 수가 가장 적은 서버를 선택
 
-### 로드 밸런싱(Load Balancing)
+### 응답 시간 
 > - 로드 밸런서에서 서버 선택 시, 응답속도가 가장 빠른 서버를 선택
 
 ## 고가용성(High Availability) 확보 방법
